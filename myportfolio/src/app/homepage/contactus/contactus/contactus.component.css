@@ -1,0 +1,22 @@
+img{
+    width: 20px;
+    height: 20px;
+}
+
+.boxcontainer{
+    padding: 50px;
+}
+
+
+.col{
+    border-radius: 7px;
+    margin: 4px;
+}
+
+.col ,p{
+    text-align: justify;
+}
+
+label{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

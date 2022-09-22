@@ -1,0 +1,7 @@
+<app-carts (productAdded)="onProductAdded($event)"></app-carts>
+<div class="container">
+  <app-ecommproduct
+    *ngFor="let product of products"
+    [productElement]="product"
+  ></app-ecommproduct>
+</div>

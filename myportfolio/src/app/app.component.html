@@ -1,0 +1,32 @@
+<div class="fluidcontainer">
+  <nav class="navbar navbar-expand-lg">
+    <img
+      class="ima"
+      src="https://cdn-icons-png.flaticon.com/128/3476/3476457.png"
+      alt="image"
+    />
+    <a class="btn" routerLink="/">myPortFolio</a>
+    <ul
+      class="nav navbar-nav"
+      style="margin-left: 55%"
+      routerLinkActive="active"
+    >
+      <li class="nav-item border m-1">
+        <a class="btn" routerLink="/aboutus">About</a>
+      </li>
+      <li class="nav-item border m-1">
+        <a class="btn" routerLink="/contactus">Contact</a>
+      </li>
+      <li class="nav-item border m-1">
+        <a class="btn" routerLink="/signin">Sign In</a>
+      </li>
+      <li class="nav-item border m-1">
+        <a class="btn" routerLink="/signup">Sign Up</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="container">
+    <router-outlet></router-outlet>
+  </div>
+</div>
+<footer>&copy; 2022 All rights reserved. Lokesvaran.</footer>
